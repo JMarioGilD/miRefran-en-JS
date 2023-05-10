@@ -25,5 +25,5 @@ miRefran = miRefran.replace("que", "palabra robada");
 document.write(miRefran);
 
 // 8.Convierte a mayúsculas todos los caracteres de tu refrán.(*)
-console.log(miRefran.toUpperCase('Recuerda siempre que tu enfoque deteermina tu realidad'))
-
+miRefran = miRefran.toUpperCase();
+document.write(miRefran)
