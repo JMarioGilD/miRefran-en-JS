@@ -9,11 +9,11 @@ let longitudRefran = miRefran.length;
 console.log(longitudRefran);
 
 // 4.En otra línea asigna a la variable novenaLetra el valor de la novena letra del refrán.
-let novenaLetra = miRefran[4];
+let novenaLetra = miRefran[8];
 console.log(novenaLetra);
 
 // 5.En otra línea asigna a la variable ultimaLetra el valor da la última letra del refrán.
-let ultimaLetra = miRefran[52];
+let ultimaLetra = miRefran[miRefran.length-1];
 console.log(ultimaLetra);
 
 // 6.Busca el índice de la cadena "que" en tu refrán y asignalo a la variable indicePalabra. Si el índice es menor que cero busca cualquier otra preposición hasta que sea mayor a 0.
